@@ -286,3 +286,9 @@ input, textarea{
 
 //------------------------------私有样式------------------------------------------------
 /** components **/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105px;
+}

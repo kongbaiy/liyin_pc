@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "17b1b5fea16eb5aca96c";
+/******/ 	var hotCurrentHash = "c40d2b72e272bf495010";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -282,7 +282,7 @@
 /******/ 				};
 /******/ 			});
 /******/ 			hotUpdate = {};
-/******/ 			var chunkId = "home";
+/******/ 			var chunkId = "home.h";
 /******/ 			// eslint-disable-next-line no-lone-blocks
 /******/ 			{
 /******/ 				hotEnsureUpdateChunk(chunkId);
@@ -4611,25 +4611,25 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
-/***/ "./src/js/home.js":
-/*!************************!*\
-  !*** ./src/js/home.js ***!
-  \************************/
+/***/ "./src/pages/home.html":
+/*!*****************************!*\
+  !*** ./src/pages/home.html ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("$(function () {});\n\n//# sourceURL=webpack:///./src/js/home.js?");
+eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> <!DOCTYPE html>\\n| <html lang=\\\"en\\\">\\n|   <head>\");\n\n//# sourceURL=webpack:///./src/pages/home.html?");
 
 /***/ }),
 
 /***/ 0:
-/*!*********************************************!*\
-  !*** multi ./src/js/home.js babel-polyfill ***!
-  \*********************************************/
+/*!**************************************************!*\
+  !*** multi ./src/pages/home.html babel-polyfill ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/js/home.js */\"./src/js/home.js\");\nmodule.exports = __webpack_require__(/*! babel-polyfill */\"./node_modules/_babel-polyfill@6.26.0@babel-polyfill/lib/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/js/home.js_babel-polyfill?");
+eval("__webpack_require__(/*! ./src/pages/home.html */\"./src/pages/home.html\");\nmodule.exports = __webpack_require__(/*! babel-polyfill */\"./node_modules/_babel-polyfill@6.26.0@babel-polyfill/lib/index.js\");\n\n\n//# sourceURL=webpack:///multi_./src/pages/home.html_babel-polyfill?");
 
 /***/ })
 
